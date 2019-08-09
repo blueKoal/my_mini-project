@@ -1,0 +1,52 @@
+label, input, textarea{
+    display:block;
+    font-weight: bold;
+    margin: 20px;
+}
+
+body{
+    background-image: url("images/bg.jpg");
+    background-size: 1700px 1080px;
+    background-blend-mode: ;
+    color:white;
+    font-family: Arial Narrow, sans-serif;
+}
+
+form{
+    background-color: rgba(48, 46, 46, 0.753);
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+input[type=text], input[type=email], textarea, button{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+textarea{
+    background-color: rgb(226, 226, 226);
+}
+button{
+     margin-top: 10px;
+     margin-left:35%;
+     padding: 10px;
+     width: 30%;
+     background-color: rgba(32, 120, 235, 0.795);
+     font-weight: bold;
+     color: white;
+}
+nav, p{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
